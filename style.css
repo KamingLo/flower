@@ -11,12 +11,12 @@
     top: 0;
     left: 0;
     color: #3f3f3f;
-    font-size: 18px;
+    font-size: 16px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: 2px;
 }
 
 .logo{
@@ -52,4 +52,36 @@ h2{
     font-family: "Raleway";
     text-align: center;
     color: #3f3f3f;
+}
+
+.imageflower{
+    position: relative;
+    width: 100%;
+}
+
+.imageflower img{
+    width: 100%;
+    height: auto;
+}
+
+.flowerbutton{
+    text-decoration: none;
+    background-color: azure;
+    color: #3f3f3f;
+    position: absolute;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 2.5vw;
+    bottom: 20%;
+    right: 20%;
+    font-family: "Raleway";
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px;
+}
+
+.flowerbutton:hover{
+    background-color: lightpink;
+    color: white;
+    transition: ease-in-out 0.3s;
 }
