@@ -19,12 +19,26 @@ body{
     .logo{
         width: 18vw ;
     }
+
     footer{
         font-size: 20px;
     }
 
     .new-release img{
         width: 20vw;
+    }
+
+    .detailed-body{
+        padding: 0 40px;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-bottom: 25px;
+    }
+
+    .half{
+        box-sizing: border-box;
+        padding: 0 15px;
+        flex: 1 0 50%;
     }
 
     h2{
@@ -55,6 +69,11 @@ body{
     
     .new-release img{
         width: 40vw;
+    }
+
+    .detailed-body{
+        padding: 0 40px;
+        margin-bottom: 25px;
     }
 
     .description h4 {
@@ -131,6 +150,7 @@ h2{
     background: rgb(255, 139, 156);
     color: white;
 }
+
 .filtercard{
     display: flex;
     margin-top: 25px;
@@ -172,6 +192,134 @@ align-items: center;
     font-size: 14px;
     font-weight: 500;
     color: #3f3f3f;
+}
+
+main{
+    max-width: 720px;
+    margin: 2% auto;
+}
+
+.detailed-card{
+    box-shadow: 0 6px 6px rgba(#000, 0.3);
+    transition: 200ms;
+    background: #fff;
+}
+
+.detailed-title{
+    display: flex;
+    align-items: center;
+    padding: 30px 40px;
+}
+
+.detailed-title h3{
+    flex: 0 1 200px;
+    text-align: right;
+    margin: 0;
+    color: #252525;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.icon a{
+    color: #000;
+    transition: ease 200ms;
+}
+
+.icon a:hover{
+    color: pink;
+}
+
+.half{
+    box-sizing: border-box;
+    padding: 0 15px;
+    flex: 1 0 50%;
+}
+
+.featured-text h1{
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+    font-size: 64px;
+    line-height: 50px;
+    color: #181e28;
+}
+
+.featured-text p{
+    margin: 0;
+    padding: 0;
+}
+
+.featured-text p.sub{
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #686e77;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.featured-text p.price{
+    font-family: "Fjalla One", sans-serif;
+    color: #252525;
+    font-size: 26px;
+}
+
+.dtl-image{
+    padding-top: 15px;
+    width: 100%;
+}
+
+.dtl-image img{
+    display: block;
+    max-width: 100%;
+    height: auto;  
+}
+
+.dtl-desc{
+    margin-bottom: 25px;
+}
+
+.dtl-desc p{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    line-height: 27px;
+    font-size: 16px;
+    color: #555;
+}
+
+.dtl-desc span.stock{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #a1cc16;
+}
+
+.dtl-footer{
+    padding: 30px 40px;
+    display: flex;
+    flex-flow: row no-wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.action button{
+    cursor: pointer;
+    border: 1px solid lightpink;
+    padding: 14px 30px;
+    border-radius: 200px;
+    color: #fff;
+    background: lightpink;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    justify-content: center;
+    transition: 200ms;
+}
+.action button:hover{
+    background: #fff;
+    color: lightpink;
 }
 
 .imageflower{
